@@ -1,0 +1,296 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+DListNode	lru-cache.cpp	/^    DListNode(int k,int v) : key(k) ,value(v), next(NULL), previous(NULL) {}$/;"	f	struct:DListNode	access:public	signature:(int k,int v)
+DListNode	lru-cache.cpp	/^struct DListNode{$/;"	s	file:
+DListNode::DListNode	lru-cache.cpp	/^    DListNode(int k,int v) : key(k) ,value(v), next(NULL), previous(NULL) {}$/;"	f	struct:DListNode	access:public	signature:(int k,int v)
+DListNode::key	lru-cache.cpp	/^    int key;$/;"	m	struct:DListNode	file:	access:public
+DListNode::next	lru-cache.cpp	/^    DListNode *next;$/;"	m	struct:DListNode	file:	access:public
+DListNode::previous	lru-cache.cpp	/^    DListNode *previous;$/;"	m	struct:DListNode	file:	access:public
+DListNode::value	lru-cache.cpp	/^    int value;$/;"	m	struct:DListNode	file:	access:public
+LRUCache	lru-cache.cpp	/^    LRUCache(int capacity) {$/;"	f	class:LRUCache	access:public	signature:(int capacity)
+LRUCache	lru-cache.cpp	/^class LRUCache{$/;"	c	file:
+LRUCache::LRUCache	lru-cache.cpp	/^    LRUCache(int capacity) {$/;"	f	class:LRUCache	access:public	signature:(int capacity)
+LRUCache::get	lru-cache.cpp	/^    int get(int key) {$/;"	f	class:LRUCache	access:public	signature:(int key)
+LRUCache::m_cachemap	lru-cache.cpp	/^    unordered_map<int, DListNode *> m_cachemap;$/;"	m	class:LRUCache	file:	access:private
+LRUCache::m_capcity	lru-cache.cpp	/^    int m_capcity;$/;"	m	class:LRUCache	file:	access:private
+LRUCache::m_end	lru-cache.cpp	/^    DListNode *m_end;$/;"	m	class:LRUCache	file:	access:private
+LRUCache::m_head	lru-cache.cpp	/^    DListNode *m_head;$/;"	m	class:LRUCache	file:	access:private
+LRUCache::m_it	lru-cache.cpp	/^    unordered_map<int, DListNode *>::iterator m_it;$/;"	m	class:LRUCache	file:	access:private
+LRUCache::set	lru-cache.cpp	/^    void set(int key, int value) {$/;"	f	class:LRUCache	access:public	signature:(int key, int value)
+ListNode	convert-sorted-list-to-binary-search-tree.cpp	/^    ListNode(int x) : val(x), next(NULL) {}$/;"	f	struct:ListNode	access:public	signature:(int x)
+ListNode	convert-sorted-list-to-binary-search-tree.cpp	/^struct ListNode {$/;"	s	file:
+ListNode	insertion-sort-list.cpp	/^    ListNode(int x) : val(x), next(NULL) {}$/;"	f	struct:ListNode	access:public	signature:(int x)
+ListNode	insertion-sort-list.cpp	/^struct ListNode {$/;"	s	file:
+ListNode	merge-k-sorted-lists.cpp	/^    ListNode(int x) : val(x), next(NULL) {}$/;"	f	struct:ListNode	access:public	signature:(int x)
+ListNode	merge-k-sorted-lists.cpp	/^struct ListNode {$/;"	s	file:
+ListNode	qsort-list.cpp	/^    ListNode(int x) : val(x), next(NULL) {}$/;"	f	struct:ListNode	access:public	signature:(int x)
+ListNode	qsort-list.cpp	/^struct ListNode {$/;"	s	file:
+ListNode	reorder-list.cpp	/^    ListNode(int x) : val(x), next(NULL) {}$/;"	f	struct:ListNode	access:public	signature:(int x)
+ListNode	reorder-list.cpp	/^struct ListNode {$/;"	s	file:
+ListNode	reverse-linked-list-ii.cpp	/^    ListNode(int x) : val(x), next(NULL) {}$/;"	f	struct:ListNode	access:public	signature:(int x)
+ListNode	reverse-linked-list-ii.cpp	/^struct ListNode {$/;"	s	file:
+ListNode	reverse-nodes-in-k-group.cpp	/^    ListNode(int x) : val(x), next(NULL) {}$/;"	f	struct:ListNode	access:public	signature:(int x)
+ListNode	reverse-nodes-in-k-group.cpp	/^struct ListNode {$/;"	s	file:
+ListNode::ListNode	convert-sorted-list-to-binary-search-tree.cpp	/^    ListNode(int x) : val(x), next(NULL) {}$/;"	f	struct:ListNode	access:public	signature:(int x)
+ListNode::ListNode	insertion-sort-list.cpp	/^    ListNode(int x) : val(x), next(NULL) {}$/;"	f	struct:ListNode	access:public	signature:(int x)
+ListNode::ListNode	merge-k-sorted-lists.cpp	/^    ListNode(int x) : val(x), next(NULL) {}$/;"	f	struct:ListNode	access:public	signature:(int x)
+ListNode::ListNode	qsort-list.cpp	/^    ListNode(int x) : val(x), next(NULL) {}$/;"	f	struct:ListNode	access:public	signature:(int x)
+ListNode::ListNode	reorder-list.cpp	/^    ListNode(int x) : val(x), next(NULL) {}$/;"	f	struct:ListNode	access:public	signature:(int x)
+ListNode::ListNode	reverse-linked-list-ii.cpp	/^    ListNode(int x) : val(x), next(NULL) {}$/;"	f	struct:ListNode	access:public	signature:(int x)
+ListNode::ListNode	reverse-nodes-in-k-group.cpp	/^    ListNode(int x) : val(x), next(NULL) {}$/;"	f	struct:ListNode	access:public	signature:(int x)
+ListNode::next	convert-sorted-list-to-binary-search-tree.cpp	/^    ListNode *next;$/;"	m	struct:ListNode	file:	access:public
+ListNode::next	insertion-sort-list.cpp	/^    ListNode *next;$/;"	m	struct:ListNode	file:	access:public
+ListNode::next	merge-k-sorted-lists.cpp	/^    ListNode *next;$/;"	m	struct:ListNode	file:	access:public
+ListNode::next	qsort-list.cpp	/^    ListNode *next;$/;"	m	struct:ListNode	file:	access:public
+ListNode::next	reorder-list.cpp	/^    ListNode *next;$/;"	m	struct:ListNode	file:	access:public
+ListNode::next	reverse-linked-list-ii.cpp	/^    ListNode *next;$/;"	m	struct:ListNode	file:	access:public
+ListNode::next	reverse-nodes-in-k-group.cpp	/^    ListNode *next;$/;"	m	struct:ListNode	file:	access:public
+ListNode::val	convert-sorted-list-to-binary-search-tree.cpp	/^    int val;$/;"	m	struct:ListNode	file:	access:public
+ListNode::val	insertion-sort-list.cpp	/^    int val;$/;"	m	struct:ListNode	file:	access:public
+ListNode::val	merge-k-sorted-lists.cpp	/^    int val;$/;"	m	struct:ListNode	file:	access:public
+ListNode::val	qsort-list.cpp	/^    int val;$/;"	m	struct:ListNode	file:	access:public
+ListNode::val	reorder-list.cpp	/^    int val;$/;"	m	struct:ListNode	file:	access:public
+ListNode::val	reverse-linked-list-ii.cpp	/^    int val;$/;"	m	struct:ListNode	file:	access:public
+ListNode::val	reverse-nodes-in-k-group.cpp	/^    int val;$/;"	m	struct:ListNode	file:	access:public
+Point	max-points-on-a-line.cpp	/^    Point() : x(0), y(0) {}$/;"	f	struct:Point	access:public	signature:()
+Point	max-points-on-a-line.cpp	/^    Point(int a, int b) : x(a), y(b) {}$/;"	f	struct:Point	access:public	signature:(int a, int b)
+Point	max-points-on-a-line.cpp	/^struct Point {$/;"	s	file:
+Point::Point	max-points-on-a-line.cpp	/^    Point() : x(0), y(0) {}$/;"	f	struct:Point	access:public	signature:()
+Point::Point	max-points-on-a-line.cpp	/^    Point(int a, int b) : x(a), y(b) {}$/;"	f	struct:Point	access:public	signature:(int a, int b)
+Point::x	max-points-on-a-line.cpp	/^    int x;$/;"	m	struct:Point	file:	access:public
+Point::y	max-points-on-a-line.cpp	/^    int y;$/;"	m	struct:Point	file:	access:public
+RandomListNode	copy-list-with-random-pointer.cpp	/^     RandomListNode(int x) : label(x), next(NULL), random(NULL) {}$/;"	f	struct:RandomListNode	access:public	signature:(int x)
+RandomListNode	copy-list-with-random-pointer.cpp	/^struct RandomListNode {$/;"	s	file:
+RandomListNode::RandomListNode	copy-list-with-random-pointer.cpp	/^     RandomListNode(int x) : label(x), next(NULL), random(NULL) {}$/;"	f	struct:RandomListNode	access:public	signature:(int x)
+RandomListNode::label	copy-list-with-random-pointer.cpp	/^     int label;$/;"	m	struct:RandomListNode	file:	access:public
+RandomListNode::next	copy-list-with-random-pointer.cpp	/^     RandomListNode *next, *random;$/;"	m	struct:RandomListNode	file:	access:public
+RandomListNode::random	copy-list-with-random-pointer.cpp	/^     RandomListNode *next, *random;$/;"	m	struct:RandomListNode	file:	access:public
+TreeLinkNode	populating-next-right-pointers-in-each-node-ii.cpp	/^    TreeLinkNode(int x) : val(x), left(NULL), right(NULL), next(NULL) {}$/;"	f	struct:TreeLinkNode	access:public	signature:(int x)
+TreeLinkNode	populating-next-right-pointers-in-each-node-ii.cpp	/^struct TreeLinkNode {$/;"	s	file:
+TreeLinkNode::TreeLinkNode	populating-next-right-pointers-in-each-node-ii.cpp	/^    TreeLinkNode(int x) : val(x), left(NULL), right(NULL), next(NULL) {}$/;"	f	struct:TreeLinkNode	access:public	signature:(int x)
+TreeLinkNode::left	populating-next-right-pointers-in-each-node-ii.cpp	/^    TreeLinkNode *left, *right, *next;$/;"	m	struct:TreeLinkNode	file:	access:public
+TreeLinkNode::next	populating-next-right-pointers-in-each-node-ii.cpp	/^    TreeLinkNode *left, *right, *next;$/;"	m	struct:TreeLinkNode	file:	access:public
+TreeLinkNode::right	populating-next-right-pointers-in-each-node-ii.cpp	/^    TreeLinkNode *left, *right, *next;$/;"	m	struct:TreeLinkNode	file:	access:public
+TreeLinkNode::val	populating-next-right-pointers-in-each-node-ii.cpp	/^    int val;$/;"	m	struct:TreeLinkNode	file:	access:public
+TreeNode	TreeNode.h	/^    TreeNode(int x) : val(x), left(NULL), right(NULL) {}$/;"	f	struct:TreeNode	access:public	signature:(int x)
+TreeNode	TreeNode.h	/^struct TreeNode {$/;"	s
+TreeNode	binary-tree-maximum-path-sum.cpp	/^    TreeNode(int x) : val(x), left(NULL), right(NULL) {}$/;"	f	struct:TreeNode	access:public	signature:(int x)
+TreeNode	binary-tree-maximum-path-sum.cpp	/^struct TreeNode {$/;"	s	file:
+TreeNode	binary-tree-postorder-traversal.cpp	/^    TreeNode(int x) : val(x), left(NULL), right(NULL) {}$/;"	f	struct:TreeNode	access:public	signature:(int x)
+TreeNode	binary-tree-postorder-traversal.cpp	/^struct TreeNode {$/;"	s	file:
+TreeNode	convert-sorted-list-to-binary-search-tree.cpp	/^    TreeNode(int x) : val(x), left(NULL), right(NULL) {}$/;"	f	struct:TreeNode	access:public	signature:(int x)
+TreeNode	convert-sorted-list-to-binary-search-tree.cpp	/^struct TreeNode {$/;"	s	file:
+TreeNode	path-sum-ii.cpp	/^    TreeNode(int x) : val(x), left(NULL), right(NULL) {}$/;"	f	struct:TreeNode	access:public	signature:(int x)
+TreeNode	path-sum-ii.cpp	/^struct TreeNode {$/;"	s	file:
+TreeNode	path-sum.cpp	/^    TreeNode(int x) : val(x), left(NULL), right(NULL) {}$/;"	f	struct:TreeNode	access:public	signature:(int x)
+TreeNode	path-sum.cpp	/^struct TreeNode {$/;"	s	file:
+TreeNode	sum-root-to-leaf-numbers.cpp	/^    TreeNode(int x) : val(x), left(NULL), right(NULL) {}$/;"	f	struct:TreeNode	access:public	signature:(int x)
+TreeNode	sum-root-to-leaf-numbers.cpp	/^struct TreeNode {$/;"	s	file:
+TreeNode::TreeNode	TreeNode.h	/^    TreeNode(int x) : val(x), left(NULL), right(NULL) {}$/;"	f	struct:TreeNode	access:public	signature:(int x)
+TreeNode::TreeNode	binary-tree-maximum-path-sum.cpp	/^    TreeNode(int x) : val(x), left(NULL), right(NULL) {}$/;"	f	struct:TreeNode	access:public	signature:(int x)
+TreeNode::TreeNode	binary-tree-postorder-traversal.cpp	/^    TreeNode(int x) : val(x), left(NULL), right(NULL) {}$/;"	f	struct:TreeNode	access:public	signature:(int x)
+TreeNode::TreeNode	convert-sorted-list-to-binary-search-tree.cpp	/^    TreeNode(int x) : val(x), left(NULL), right(NULL) {}$/;"	f	struct:TreeNode	access:public	signature:(int x)
+TreeNode::TreeNode	path-sum-ii.cpp	/^    TreeNode(int x) : val(x), left(NULL), right(NULL) {}$/;"	f	struct:TreeNode	access:public	signature:(int x)
+TreeNode::TreeNode	path-sum.cpp	/^    TreeNode(int x) : val(x), left(NULL), right(NULL) {}$/;"	f	struct:TreeNode	access:public	signature:(int x)
+TreeNode::TreeNode	sum-root-to-leaf-numbers.cpp	/^    TreeNode(int x) : val(x), left(NULL), right(NULL) {}$/;"	f	struct:TreeNode	access:public	signature:(int x)
+TreeNode::left	TreeNode.h	/^    TreeNode *left;$/;"	m	struct:TreeNode	access:public
+TreeNode::left	binary-tree-maximum-path-sum.cpp	/^    TreeNode *left;$/;"	m	struct:TreeNode	file:	access:public
+TreeNode::left	binary-tree-postorder-traversal.cpp	/^    TreeNode *left;$/;"	m	struct:TreeNode	file:	access:public
+TreeNode::left	convert-sorted-list-to-binary-search-tree.cpp	/^    TreeNode *left;$/;"	m	struct:TreeNode	file:	access:public
+TreeNode::left	path-sum-ii.cpp	/^    TreeNode *left;$/;"	m	struct:TreeNode	file:	access:public
+TreeNode::left	path-sum.cpp	/^    TreeNode *left;$/;"	m	struct:TreeNode	file:	access:public
+TreeNode::left	sum-root-to-leaf-numbers.cpp	/^    TreeNode *left;$/;"	m	struct:TreeNode	file:	access:public
+TreeNode::right	TreeNode.h	/^    TreeNode *right;$/;"	m	struct:TreeNode	access:public
+TreeNode::right	binary-tree-maximum-path-sum.cpp	/^    TreeNode *right;$/;"	m	struct:TreeNode	file:	access:public
+TreeNode::right	binary-tree-postorder-traversal.cpp	/^    TreeNode *right;$/;"	m	struct:TreeNode	file:	access:public
+TreeNode::right	convert-sorted-list-to-binary-search-tree.cpp	/^    TreeNode *right;$/;"	m	struct:TreeNode	file:	access:public
+TreeNode::right	path-sum-ii.cpp	/^    TreeNode *right;$/;"	m	struct:TreeNode	file:	access:public
+TreeNode::right	path-sum.cpp	/^    TreeNode *right;$/;"	m	struct:TreeNode	file:	access:public
+TreeNode::right	sum-root-to-leaf-numbers.cpp	/^    TreeNode *right;$/;"	m	struct:TreeNode	file:	access:public
+TreeNode::val	TreeNode.h	/^    int val;$/;"	m	struct:TreeNode	access:public
+TreeNode::val	binary-tree-maximum-path-sum.cpp	/^    int val;$/;"	m	struct:TreeNode	file:	access:public
+TreeNode::val	binary-tree-postorder-traversal.cpp	/^    int val;$/;"	m	struct:TreeNode	file:	access:public
+TreeNode::val	convert-sorted-list-to-binary-search-tree.cpp	/^    int val;$/;"	m	struct:TreeNode	file:	access:public
+TreeNode::val	path-sum-ii.cpp	/^    int val;$/;"	m	struct:TreeNode	file:	access:public
+TreeNode::val	path-sum.cpp	/^    int val;$/;"	m	struct:TreeNode	file:	access:public
+TreeNode::val	sum-root-to-leaf-numbers.cpp	/^    int val;$/;"	m	struct:TreeNode	file:	access:public
+UndirectedGraphNode	clone-graph.cpp	/^    UndirectedGraphNode(int x) : label(x) {};$/;"	f	struct:UndirectedGraphNode	access:public	signature:(int x)
+UndirectedGraphNode	clone-graph.cpp	/^struct UndirectedGraphNode {$/;"	s	file:
+UndirectedGraphNode::UndirectedGraphNode	clone-graph.cpp	/^    UndirectedGraphNode(int x) : label(x) {};$/;"	f	struct:UndirectedGraphNode	access:public	signature:(int x)
+UndirectedGraphNode::label	clone-graph.cpp	/^    int label;$/;"	m	struct:UndirectedGraphNode	file:	access:public
+UndirectedGraphNode::neighbors	clone-graph.cpp	/^    vector<UndirectedGraphNode *> neighbors;$/;"	m	struct:UndirectedGraphNode	file:	access:public
+addBinary	add-binary.cpp	/^string addBinary(string a, string b) {$/;"	f	signature:(string a, string b)
+canJump	jump-game.cpp	/^bool canJump(int A[], int n) {$/;"	f	signature:(int A[], int n)
+changeO	surrounded-regions.cpp	/^void changeO(int x, int y, vector<vector<char> >&board, stack<pair<int, int> > &point_s) {$/;"	f	signature:(int x, int y, vector<vector<char> >&board, stack<pair<int, int> > &point_s)
+checkTable	longest-palindromic-substring.cpp	/^int checkTable(int i, int j) {$/;"	f	signature:(int i, int j)
+cloneGraph	clone-graph.cpp	/^UndirectedGraphNode *cloneGraph(UndirectedGraphNode *node) {$/;"	f	signature:(UndirectedGraphNode *node)
+cmpequal	max-points-on-a-line.cpp	/^bool cmpequal(Point a, Point b) {$/;"	f	signature:(Point a, Point b)
+cmpless	max-points-on-a-line.cpp	/^bool cmpless(Point a, Point b) {$/;"	f	signature:(Point a, Point b)
+compute_overlay	compute_overlay.cpp	/^void compute_overlay(const string& pattern) {$/;"	f	signature:(const string& pattern)
+compute_overlay	kmp_find.cpp	/^int* compute_overlay(const string& pattern) {$/;"	f	signature:(const string& pattern)
+connect	populating-next-right-pointers-in-each-node-ii.cpp	/^void connect(TreeLinkNode *root) {$/;"	f	signature:(TreeLinkNode *root)
+copyRandomList	copy-list-with-random-pointer.cpp	/^RandomListNode *copyRandomList(RandomListNode *head) {$/;"	f	signature:(RandomListNode *head)
+evalRPN	evaluate-reverse-polish-notation.cpp	/^int evalRPN(vector<string> &tokens) {$/;"	f	signature:(vector<string> &tokens)
+flatTree	flatten-binary-tree-to-linked-list.cpp	/^TreeNode * flatTree(TreeNode *root) {$/;"	f	signature:(TreeNode *root)
+flatten	flatten-binary-tree-to-linked-list.cpp	/^void flatten(TreeNode *root) {$/;"	f	signature:(TreeNode *root)
+get	lru-cache.cpp	/^    int get(int key) {$/;"	f	class:LRUCache	access:public	signature:(int key)
+getForwardFirstNotTarget	search-for-a-range.cpp	/^int getForwardFirstNotTarget(int A[], int bottom, int top, int target) {$/;"	f	signature:(int A[], int bottom, int top, int target)
+getLongest	longest-palindromic-substring.cpp	/^int getLongest(string &s, int &index, int end) {$/;"	f	signature:(string &s, int &index, int end)
+getMaxPoints	max-points-on-a-line.cpp	/^int getMaxPoints(vector<Point> &points, int index) {$/;"	f	signature:(vector<Point> &points, int index)
+getMinMaxValid	validate-binary-search-tree.cpp	/^bool getMinMaxValid(TreeNode *root, int &minv, int &maxv) {$/;"	f	signature:(TreeNode *root, int &minv, int &maxv)
+getPathSum	path-sum-ii.cpp	/^void getPathSum(TreeNode * root,  int sum){$/;"	f	signature:(TreeNode * root, int sum)
+getState	valid-number.cpp	/^int getState(char c, int state) {$/;"	f	signature:(char c, int state)
+getSum	sum-root-to-leaf-numbers.cpp	/^void getSum(TreeNode *root) {$/;"	f	signature:(TreeNode *root)
+hasPathSum	path-sum.cpp	/^bool hasPathSum(TreeNode *root, int sum) {$/;"	f	signature:(TreeNode *root, int sum)
+heapify	merge-k-sorted-lists.cpp	/^void heapify(ListNode **pos, int i) {$/;"	f	signature:(ListNode **pos, int i)
+heaplength	merge-k-sorted-lists.cpp	/^int heaplength;$/;"	v
+incrasekey	merge-k-sorted-lists.cpp	/^void incrasekey(ListNode **pos, int i, ListNode *x) {$/;"	f	signature:(ListNode **pos, int i, ListNode *x)
+insertionSortList	insertion-sort-list.cpp	/^ListNode *insertionSortList(ListNode *head) {$/;"	f	signature:(ListNode *head)
+isNumber	valid-number.cpp	/^bool isNumber(const char *s) {$/;"	f	signature:(const char *s)
+isValidBST	validate-binary-search-tree.cpp	/^bool isValidBST(TreeNode *root) {$/;"	f	signature:(TreeNode *root)
+judge	word-break-ii.cpp	/^void judge(string &s, unordered_set<string> &dict, int index, vector<string> &result) {$/;"	f	signature:(string &s, unordered_set<string> &dict, int index, vector<string> &result)
+judge	word-break.cpp	/^bool judge(string &s, unordered_set<string> &dict, int index) {$/;"	f	signature:(string &s, unordered_set<string> &dict, int index)
+jump	jump-game-ii.cpp	/^int jump(int A[], int n) {$/;"	f	signature:(int A[], int n)
+key	lru-cache.cpp	/^    int key;$/;"	m	struct:DListNode	file:	access:public
+kmp_find	kmp_find.cpp	/^int kmp_find(const string &target, const string &pattern) {$/;"	f	signature:(const string &target, const string &pattern)
+label	clone-graph.cpp	/^    int label;$/;"	m	struct:UndirectedGraphNode	file:	access:public
+label	copy-list-with-random-pointer.cpp	/^     int label;$/;"	m	struct:RandomListNode	file:	access:public
+left	TreeNode.h	/^    TreeNode *left;$/;"	m	struct:TreeNode	access:public
+left	binary-tree-maximum-path-sum.cpp	/^    TreeNode *left;$/;"	m	struct:TreeNode	file:	access:public
+left	binary-tree-postorder-traversal.cpp	/^    TreeNode *left;$/;"	m	struct:TreeNode	file:	access:public
+left	convert-sorted-list-to-binary-search-tree.cpp	/^    TreeNode *left;$/;"	m	struct:TreeNode	file:	access:public
+left	path-sum-ii.cpp	/^    TreeNode *left;$/;"	m	struct:TreeNode	file:	access:public
+left	path-sum.cpp	/^    TreeNode *left;$/;"	m	struct:TreeNode	file:	access:public
+left	populating-next-right-pointers-in-each-node-ii.cpp	/^    TreeLinkNode *left, *right, *next;$/;"	m	struct:TreeLinkNode	file:	access:public
+left	sum-root-to-leaf-numbers.cpp	/^    TreeNode *left;$/;"	m	struct:TreeNode	file:	access:public
+lengthOfLastWord	length-of-last-word.cpp	/^int lengthOfLastWord(const char *s) {$/;"	f	signature:(const char *s)
+longestConsecutive	longest-consecutive-sequence.cpp	/^int longestConsecutive(vector<int> &num) {$/;"	f	signature:(vector<int> &num)
+longestPalindrome	longest-palindromic-substring.cpp	/^string longestPalindrome(string s) {$/;"	f	signature:(string s)
+m_cachemap	lru-cache.cpp	/^    unordered_map<int, DListNode *> m_cachemap;$/;"	m	class:LRUCache	file:	access:private
+m_capcity	lru-cache.cpp	/^    int m_capcity;$/;"	m	class:LRUCache	file:	access:private
+m_end	lru-cache.cpp	/^    DListNode *m_end;$/;"	m	class:LRUCache	file:	access:private
+m_head	lru-cache.cpp	/^    DListNode *m_head;$/;"	m	class:LRUCache	file:	access:private
+m_it	lru-cache.cpp	/^    unordered_map<int, DListNode *>::iterator m_it;$/;"	m	class:LRUCache	file:	access:private
+main	add-binary.cpp	/^int main() {$/;"	f	signature:()
+main	best-time-to-buy-and-sell-stock-iii.cpp	/^int main() {$/;"	f	signature:()
+main	binary-tree-postorder-traversal.cpp	/^int main() {$/;"	f	signature:()
+main	binary-tree-zigzag-level-order-traversal.cpp	/^int main() {$/;"	f	signature:()
+main	clone-graph.cpp	/^int main() {$/;"	f	signature:()
+main	compute_overlay.cpp	/^int main()$/;"	f	signature:()
+main	convert-sorted-list-to-binary-search-tree.cpp	/^int main() {$/;"	f	signature:()
+main	copy-list-with-random-pointer.cpp	/^int main() {$/;"	f	signature:()
+main	decode-ways.cpp	/^int main(){$/;"	f	signature:()
+main	evaluate-reverse-polish-notation.cpp	/^int main() {$/;"	f	signature:()
+main	flatten-binary-tree-to-linked-list.cpp	/^int main() {$/;"	f	signature:()
+main	insertion-sort-list.cpp	/^int main(){$/;"	f	signature:()
+main	jump-game-ii.cpp	/^int main() {$/;"	f	signature:()
+main	jump-game.cpp	/^int main(){$/;"	f	signature:()
+main	kmp_find.cpp	/^int main()$/;"	f	signature:()
+main	length-of-last-word.cpp	/^int main() {$/;"	f	signature:()
+main	longest-consecutive-sequence.cpp	/^int main() {$/;"	f	signature:()
+main	longest-palindromic-substring.cpp	/^int main() {$/;"	f	signature:()
+main	lru-cache.cpp	/^int main(){$/;"	f	signature:()
+main	max-points-on-a-line.cpp	/^int main() {$/;"	f	signature:()
+main	merge-k-sorted-lists.cpp	/^int main() {$/;"	f	signature:()
+main	minimum-depth-of-binary-tree.cpp	/^int main() {$/;"	f	signature:()
+main	path-sum-ii.cpp	/^int main() {$/;"	f	signature:()
+main	path-sum.cpp	/^int main() {$/;"	f	signature:()
+main	populating-next-right-pointers-in-each-node-ii.cpp	/^int main() {$/;"	f	signature:()
+main	powx-n.cpp	/^int main() {$/;"	f	signature:()
+main	qsort-list.cpp	/^int main() {$/;"	f	signature:()
+main	remove-duplicates-from-sorted-array-ii.cpp	/^int main() {$/;"	f	signature:()
+main	reorder-list.cpp	/^int main() {$/;"	f	signature:()
+main	reverse-linked-list-ii.cpp	/^int main() {$/;"	f	signature:()
+main	reverse-nodes-in-k-group.cpp	/^int main() {$/;"	f	signature:()
+main	search-a-2d-matrix.cpp	/^int main() {$/;"	f	signature:()
+main	search-for-a-range.cpp	/^int main() {$/;"	f	signature:()
+main	simplify-path.cpp	/^int main() {$/;"	f	signature:()
+main	single-number-ii.cpp	/^int main() {$/;"	f	signature:()
+main	sum-root-to-leaf-numbers.cpp	/^int main() {$/;"	f	signature:()
+main	surrounded-regions.cpp	/^int main() {$/;"	f	signature:()
+main	triangle.cpp	/^int main() {$/;"	f	signature:()
+main	unique-paths-ii.cpp	/^int main() {$/;"	f	signature:()
+main	valid-number.cpp	/^int main() {$/;"	f	signature:()
+main	validate-binary-search-tree.cpp	/^int main() {$/;"	f	signature:()
+main	word-break-ii.cpp	/^int main() {$/;"	f	signature:()
+main	word-break.cpp	/^int main() {$/;"	f	signature:()
+maxPoints	max-points-on-a-line.cpp	/^int maxPoints(vector<Point> &points) {$/;"	f	signature:(vector<Point> &points)
+maxProfit	best-time-to-buy-and-sell-stock-iii.cpp	/^int maxProfit(vector<int> &prices) {$/;"	f	signature:(vector<int> &prices)
+mergeKLists	merge-k-sorted-lists.cpp	/^ListNode *mergeKLists(vector<ListNode *> &lists) {$/;"	f	signature:(vector<ListNode *> &lists)
+minDepth	minimum-depth-of-binary-tree.cpp	/^int minDepth(TreeNode *root) {$/;"	f	signature:(TreeNode *root)
+minimumTotal	triangle.cpp	/^int minimumTotal(vector<vector<int> > &triangle) {$/;"	f	signature:(vector<vector<int> > &triangle)
+neighbors	clone-graph.cpp	/^    vector<UndirectedGraphNode *> neighbors;$/;"	m	struct:UndirectedGraphNode	file:	access:public
+next	convert-sorted-list-to-binary-search-tree.cpp	/^    ListNode *next;$/;"	m	struct:ListNode	file:	access:public
+next	copy-list-with-random-pointer.cpp	/^     RandomListNode *next, *random;$/;"	m	struct:RandomListNode	file:	access:public
+next	insertion-sort-list.cpp	/^    ListNode *next;$/;"	m	struct:ListNode	file:	access:public
+next	lru-cache.cpp	/^    DListNode *next;$/;"	m	struct:DListNode	file:	access:public
+next	merge-k-sorted-lists.cpp	/^    ListNode *next;$/;"	m	struct:ListNode	file:	access:public
+next	populating-next-right-pointers-in-each-node-ii.cpp	/^    TreeLinkNode *left, *right, *next;$/;"	m	struct:TreeLinkNode	file:	access:public
+next	qsort-list.cpp	/^    ListNode *next;$/;"	m	struct:ListNode	file:	access:public
+next	reorder-list.cpp	/^    ListNode *next;$/;"	m	struct:ListNode	file:	access:public
+next	reverse-linked-list-ii.cpp	/^    ListNode *next;$/;"	m	struct:ListNode	file:	access:public
+next	reverse-nodes-in-k-group.cpp	/^    ListNode *next;$/;"	m	struct:ListNode	file:	access:public
+numDecodings	decode-ways.cpp	/^int numDecodings(string s) {$/;"	f	signature:(string s)
+num_s	sum-root-to-leaf-numbers.cpp	/^stack<int> num_s;$/;"	v
+pathSum	path-sum-ii.cpp	/^vector<vector<int> > pathSum(TreeNode *root, int sum) {$/;"	f	signature:(TreeNode *root, int sum)
+pop	merge-k-sorted-lists.cpp	/^void pop(ListNode **pos) {$/;"	f	signature:(ListNode **pos)
+postorderTraversal	binary-tree-postorder-traversal.cpp	/^vector<int> postorderTraversal(TreeNode *root) {$/;"	f	signature:(TreeNode *root)
+pow	powx-n.cpp	/^double pow(double x, int n) {$/;"	f	signature:(double x, int n)
+previous	lru-cache.cpp	/^    DListNode *previous;$/;"	m	struct:DListNode	file:	access:public
+push	merge-k-sorted-lists.cpp	/^void push(ListNode **pos, ListNode *x) {$/;"	f	signature:(ListNode **pos, ListNode *x)
+random	copy-list-with-random-pointer.cpp	/^     RandomListNode *next, *random;$/;"	m	struct:RandomListNode	file:	access:public
+removeDuplicates	remove-duplicates-from-sorted-array-ii.cpp	/^int removeDuplicates(int A[], int n) {$/;"	f	signature:(int A[], int n)
+reorderList	reorder-list.cpp	/^void reorderList(ListNode *head) {$/;"	f	signature:(ListNode *head)
+result_s	path-sum-ii.cpp	/^stack<int> result_s;$/;"	v
+result_v	path-sum-ii.cpp	/^vector<vector<int> > result_v;$/;"	v
+reverseBetween	reverse-linked-list-ii.cpp	/^ListNode *reverseBetween(ListNode *head, int m, int n) {$/;"	f	signature:(ListNode *head, int m, int n)
+reverseKGroup	reverse-nodes-in-k-group.cpp	/^ListNode *reverseKGroup(ListNode *head, int k) {$/;"	f	signature:(ListNode *head, int k)
+right	TreeNode.h	/^    TreeNode *right;$/;"	m	struct:TreeNode	access:public
+right	binary-tree-maximum-path-sum.cpp	/^    TreeNode *right;$/;"	m	struct:TreeNode	file:	access:public
+right	binary-tree-postorder-traversal.cpp	/^    TreeNode *right;$/;"	m	struct:TreeNode	file:	access:public
+right	convert-sorted-list-to-binary-search-tree.cpp	/^    TreeNode *right;$/;"	m	struct:TreeNode	file:	access:public
+right	path-sum-ii.cpp	/^    TreeNode *right;$/;"	m	struct:TreeNode	file:	access:public
+right	path-sum.cpp	/^    TreeNode *right;$/;"	m	struct:TreeNode	file:	access:public
+right	populating-next-right-pointers-in-each-node-ii.cpp	/^    TreeLinkNode *left, *right, *next;$/;"	m	struct:TreeLinkNode	file:	access:public
+right	sum-root-to-leaf-numbers.cpp	/^    TreeNode *right;$/;"	m	struct:TreeNode	file:	access:public
+searchMatrix	search-a-2d-matrix.cpp	/^bool searchMatrix(vector<vector<int> > &matrix, int target) {$/;"	f	signature:(vector<vector<int> > &matrix, int target)
+searchRange	search-for-a-range.cpp	/^vector<int> searchRange(int A[], int n, int target) {$/;"	f	signature:(int A[], int n, int target)
+set	lru-cache.cpp	/^    void set(int key, int value) {$/;"	f	class:LRUCache	access:public	signature:(int key, int value)
+simplifyPath	simplify-path.cpp	/^string simplifyPath(string path) {$/;"	f	signature:(string path)
+singleNumber	single-number-ii.cpp	/^int singleNumber(int A[], int n) {$/;"	f	signature:(int A[], int n)
+solve	surrounded-regions.cpp	/^void solve(vector<vector<char>> &board) {$/;"	f	signature:(vector<vector<char>> &board)
+sortList	qsort-list.cpp	/^ListNode *sortList(ListNode *head) {$/;"	f	signature:(ListNode *head)
+sortedListToBST	convert-sorted-list-to-binary-search-tree.cpp	/^TreeNode *sortedListToBST(ListNode *head) {$/;"	f	signature:(ListNode *head)
+strCmp	word-break-ii.cpp	/^bool strCmp(string &s, string pattern, int index) {$/;"	f	signature:(string &s, string pattern, int index)
+strCmp	word-break.cpp	/^bool strCmp(string &s, string pattern, int index) {$/;"	f	signature:(string &s, string pattern, int index)
+strstack	word-break-ii.cpp	/^stack<string> strstack;$/;"	v
+sumNumbers	sum-root-to-leaf-numbers.cpp	/^int sumNumbers(TreeNode *root) {$/;"	f	signature:(TreeNode *root)
+sums_v	sum-root-to-leaf-numbers.cpp	/^vector<int> sums_v;$/;"	v
+top	merge-k-sorted-lists.cpp	/^ListNode* top(ListNode **pos) {$/;"	f	signature:(ListNode **pos)
+uniquePaths	unique-paths-ii.cpp	/^int uniquePaths(int m, int n, vector<vector<int> > &obstacleGrid) {$/;"	f	signature:(int m, int n, vector<vector<int> > &obstacleGrid)
+uniquePathsWithObstacles	unique-paths-ii.cpp	/^int uniquePathsWithObstacles(vector<vector<int> > &obstacleGrid) {$/;"	f	signature:(vector<vector<int> > &obstacleGrid)
+val	TreeNode.h	/^    int val;$/;"	m	struct:TreeNode	access:public
+val	binary-tree-maximum-path-sum.cpp	/^    int val;$/;"	m	struct:TreeNode	file:	access:public
+val	binary-tree-postorder-traversal.cpp	/^    int val;$/;"	m	struct:TreeNode	file:	access:public
+val	convert-sorted-list-to-binary-search-tree.cpp	/^    int val;$/;"	m	struct:ListNode	file:	access:public
+val	convert-sorted-list-to-binary-search-tree.cpp	/^    int val;$/;"	m	struct:TreeNode	file:	access:public
+val	insertion-sort-list.cpp	/^    int val;$/;"	m	struct:ListNode	file:	access:public
+val	merge-k-sorted-lists.cpp	/^    int val;$/;"	m	struct:ListNode	file:	access:public
+val	path-sum-ii.cpp	/^    int val;$/;"	m	struct:TreeNode	file:	access:public
+val	path-sum.cpp	/^    int val;$/;"	m	struct:TreeNode	file:	access:public
+val	populating-next-right-pointers-in-each-node-ii.cpp	/^    int val;$/;"	m	struct:TreeLinkNode	file:	access:public
+val	qsort-list.cpp	/^    int val;$/;"	m	struct:ListNode	file:	access:public
+val	reorder-list.cpp	/^    int val;$/;"	m	struct:ListNode	file:	access:public
+val	reverse-linked-list-ii.cpp	/^    int val;$/;"	m	struct:ListNode	file:	access:public
+val	reverse-nodes-in-k-group.cpp	/^    int val;$/;"	m	struct:ListNode	file:	access:public
+val	sum-root-to-leaf-numbers.cpp	/^    int val;$/;"	m	struct:TreeNode	file:	access:public
+value	lru-cache.cpp	/^    int value;$/;"	m	struct:DListNode	file:	access:public
+wordBreak	word-break-ii.cpp	/^vector<string> wordBreak(string s, unordered_set<string> &dict) {$/;"	f	signature:(string s, unordered_set<string> &dict)
+wordBreak	word-break.cpp	/^bool wordBreak(string s, unordered_set<string> &dict) {$/;"	f	signature:(string s, unordered_set<string> &dict)
+x	max-points-on-a-line.cpp	/^    int x;$/;"	m	struct:Point	file:	access:public
+y	max-points-on-a-line.cpp	/^    int y;$/;"	m	struct:Point	file:	access:public
+zigzagLevelOrder	binary-tree-zigzag-level-order-traversal.cpp	/^vector<vector<int> > zigzagLevelOrder(TreeNode *root) {$/;"	f	signature:(TreeNode *root)
