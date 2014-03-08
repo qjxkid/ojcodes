@@ -3,8 +3,8 @@
 
 using namespace std;
 
-int* compute_overlay(const string& pattern) {
-    const int pattern_length = pattern.size();
+int * compute_overlay(const char * pattern) {
+    int pattern_length = strlen(pattern);
     int *overlay_function = new int[pattern_length];
     int index;
     int i;
@@ -29,20 +29,18 @@ int* compute_overlay(const string& pattern) {
     return overlay_function;
 }
 
-int kmp_find(const string &target, const string &pattern) {
-    const int target_len = target.size();
-    const int pattern_len = pattern.size();
-    int *overlay_value = compute_overlay(pattern);
-    for (int i = 0; i < pattern_len; i++) {
-        cout<<overlay_value[i]<<" ";
-    }
-    cout<<"\n";
 
+char *strStr(char *haystack, char *needle) {
+    int target_len = strlen(haystack);
+    int pattern_len = strlen(needle);
+    int *overlay_value = compute_overlay(needle);
+    int pos;
+    
     //match algorithm
     int pattern_index = 0;
     int target_index = 0;
     while(pattern_index < pattern_len && target_index < target_len) {
-        if (target[target_index] == pattern[pattern_index]) {
+        if (haystack[target_index] == needle[pattern_index]) {
             target_index++;
             pattern_index++;
         }
@@ -54,23 +52,18 @@ int kmp_find(const string &target, const string &pattern) {
         }
     }
     if (pattern_len == pattern_index) {
-        return target_index - pattern_index;
+        pos = target_index - pattern_index;
+        return &(haystack[pos]);
     }
     else {
-        return -1;
+        return NULL;
     }
 }
 
-int main()
-{
-    //string source = "annbcdanacadsannannabnna";
-    //string pattern = "annabnna";
-    string source = "mississippi";
-    string pattern = "issip";
-    cout<<strlen(pattern.c_str())<<endl;
-    cout<<pattern.size()<<endl;
-    const char * q = source.c_str();
-    const char * p = &(q[kmp_find(source, pattern)]);
-    cout<<p<<endl;
-    return 0;
+int main() {
+    char a[] = "mississippi";
+    char b[] = "issip";
+    char *c = strStr(a, b);
+    cout<<c<<endl;
+    
 }
